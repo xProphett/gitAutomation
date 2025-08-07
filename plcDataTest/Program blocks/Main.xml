@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Document>
   <Engineering version="V19" />
   <SW.Blocks.OB ID="0">
@@ -102,7 +102,9 @@
     <Part Name="Contact" UId="32" />
     <Part Name="Contact" UId="33" />
     <Part Name="Contact" UId="34" />
-    <Part Name="Contact" UId="35" />
+    <Part Name="Contact" UId="35">
+      <Negated Name="operand" />
+    </Part>
     <Part Name="Add" UId="36" DisabledENO="true">
       <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
       <TemplateValue Name="SrcType" Type="Type">Int</TemplateValue>
