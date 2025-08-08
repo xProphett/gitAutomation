@@ -6,7 +6,7 @@
       <AutoNumber>false</AutoNumber>
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
   <Section Name="Static">
-    <Member Name="data" Datatype="Bool" />
+    <Member Name="data" Datatype="Array[1..100] of Byte" />
   </Section>
 </Sections></Interface>
       <MemoryLayout>Optimized</MemoryLayout>
